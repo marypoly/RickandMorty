@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@media (max-width: 480px) {
+	
+	header, footer{
+		flex-direction:column;
+		background-color:#f0dcdc;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div-h1{
+		text-align: center;
+    }
+
+    header nav{
+    	flex-direction: column;
+    	order: -1;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+	h3{
+		font-size: 15px;
+	    font-family: sans-serif;
+	    color: red;
+	    text-align: center;
+	}
+
+	footer nav{
+		display: flex;
+    	flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width: 880px) {
+	
+	header{
+		background-color:#dbcaeb;
+    }
+    h1{
+    	font-size: 30px;
+    }
+
+    header img{
+	    width: 100px;
+	}
+    
+    header nav{ 
+    	flex-direction: column;
+    	order: -1;
+    	align-items: start;
+    	font-size: 15px;
+    }
+}
+@media(max-width:1440px){
+	header{
+		border-bottom: 2px solid black;
+		display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    header, footer{
+    	background-color:#88f5e1;
+	    padding: 20px;
+	    text-align: center;
+	    
+    }
+    .img-ico{
+	    width: 200px;
+	    border-radius: 100%;
+	    border: 2px solid black;
+    }
+    .div-h1{
+	    display: flex;
+	    align-items:center;
+	    font-family: 'Bungee Spice', cursive;
+	    font-size: 30px;
+	    color: #114949;
+    }
+    header nav{ 
+	    display: flex;
+	    justify-content: end;
+	    align-items: end;
+	    font-size: 25px;
+    }
+    main{
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    gap: 20px;
+	    background-image: url("https://cdn.pixabay.com/photo/2022/07/19/22/11/wallpaper-7333087_1280.png");
+    }
+    main h2{
+	    font-family: 'Delicious Handrawn', cursive;
+	    font-size: 55px;
+	    color: #970604;
+	    padding :20px;
+        margin: 10px;
+        text-align: center;
+    }
+    .section{
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-items: center;
+	    gap: 20px;
+	    border: outset;
+        border-width: 15px;
+	    width: 90%;
+	    margin: 20px;
+    }
+    .card{
+	    width: 200px;
+	    border:2px solid #840479;
+	    border-radius: 10px;
+	    padding: 20px 20px;
+	    margin: 10px 0px;
+	    background-color:#02fef8;
+	    text-align: center;
+    }
+    img{
+	    width: 150px;
+	    border:2px solid black;
+	    border-radius: 10px;
+    }
+    .h3-js{
+	    font-size: 16px;
+	    font-family: sans-serif;
+	    color: blueviolet;
+    }
+    .p-js{
+	    font-size: 14px;
+	    font-family: monospace;
+    }
+    .div-texto-card{
+	    text-align: center;
+        padding: 10px;
+	    width: 150px;
+	    border: 2px solid black;
+	    border-radius: 10px;
+    }
+    footer{
+	    border-top: 2px solid black;
+    }
+    footer h3{
+	    font-size: 30px;
+	    font-family: monospace;
+	    color: blueviolet;
+    }
+}
